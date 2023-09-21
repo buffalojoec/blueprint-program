@@ -1,0 +1,15 @@
+[package]
+name = "spl-blueprint-program"
+version = "0.1.0"
+description = "Blueprint schemas for parsing account/transaction data"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.16.14"
+spl-program-error = "0.3.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]

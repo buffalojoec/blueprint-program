@@ -1,0 +1,26 @@
+{
+  "name": "spl-blueprint-program-js",
+  "version": "0.1.0",
+  "description": "SDK for interacting with the SPL Blueprint Program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buffalojoec/blueprint-program"
+  },
+  "keywords": [
+    "solana",
+    "blueprint"
+  ],
+  "author": "Joe Caulfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buffalojoec/blueprint-program/issues"
+  },
+  "homepage": "https://github.com/buffalojoec/blueprint-program#readme",
+  "dependencies": {
+    "@solana/web3.js": "^2.0.0-experimental"
+  }
+}
